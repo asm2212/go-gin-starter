@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/jackc/pgx/v5/pgxpool"
 	"github.com/asm2212/go-gin-starter/config"
+	"github.com/jackc/pgx/v5/pgxpool"
 )
 
 func NewPostgresDB(cfg *config.Config) *pgxpool.Pool {
