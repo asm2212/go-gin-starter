@@ -31,4 +31,7 @@ require (
 	golang.org/x/text v0.15.0 // indirect
 	google.golang.org/protobuf v1.34.1 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
+	github.com/gin-gonic/gin v1.10.0
+	github.com/jackc/pgx/v5 v5.6.1
+	github.com/joho/godotenv v1.5.1
 )
